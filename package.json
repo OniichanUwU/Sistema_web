@@ -1,0 +1,21 @@
+{
+  "name": "sistema_web",
+  "version": "0.0.0",
+  "description": "Sistema web transaccional para comprar frutas y verduras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/webisite.js"
+  },
+  "author": "OniichanUwU Github",
+  "license": "ISC",
+  "dependencies":{
+    "http": "0.0.0",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "express": "~4.16.1",
+    "cookie-parser": "~1.4.4",
+    "morgan": "~1.9.1",
+    "mongoose": "^5.9.18"
+  }
+}
